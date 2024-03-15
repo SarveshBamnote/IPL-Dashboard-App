@@ -1,0 +1,29 @@
+.team-match-bg {
+  background-image: linear-gradient(to top, #1e293b, #a4261d);
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.team-banner {
+  width: 90%;
+  margin-top: 30px;
+}
+.latest-match-container {
+  padding-left: 0px;
+  width: 90%;
+  background-color: #0f172a;
+  border-radius: 6px;
+}
+.match-card-container {
+  padding-left: 0px;
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+}
+@media screen and (min-width: 1200px) {
+  .team-match-bg {
+    width: 50%;
+  }
+}

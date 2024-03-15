@@ -1,0 +1,36 @@
+.match-card {
+  list-style-type: none;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  width: 30%;
+  height: 400px;
+  background-color: #0f172a;
+  margin: 10px;
+  border-radius: 6px;
+}
+.card-image {
+  width: 100px;
+}
+.green {
+  color: green;
+}
+.red {
+  color: red;
+}
+@media screen and (max-width: 768px) {
+  .match-card {
+    width: 42%;
+    height: 350px;
+  }
+  .card-image {
+    height: 60px;
+    width: 60px;
+  }
+  .match-card-para {
+    font-size: 14px;
+  }
+}
